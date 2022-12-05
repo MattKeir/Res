@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./styles/styles.css">
+        <title>Contact Page</title>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About Me</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Contact Information</h1>
+
+        </header>
+
+        <main>
+        <p>Email: Matthew.w.keirstead@gmail.com <br>
+         Phone: 519-939-9714</p>
+        <form action="./index.html" method="post"  name="Submit" netlify> 
+            <fieldset>
+                <legend>User Information</legend>
+
+                <div>
+                    <label for="name">Name:</label><br />
+                    <input type="text" name="name" id="name" />
+                </div>
+                <div>
+                    <label for="email">Email:</label><br />
+                    <input type="text" name="email" id="email" />
+                </div>
+                <div>
+                    <label for="url">Comment:</label><br />
+                    <input type="text" name="comment" id="comment" />
+                </div>
+            </fieldset>
+
+            <input type="submit" value="Submit"/>
+        </form>
+        </main>
+    </body>

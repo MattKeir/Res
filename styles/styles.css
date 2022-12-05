@@ -1,0 +1,54 @@
+header {
+background-image: url(../images/Garage.jpg);
+background-size: cover;
+background-position: center;
+height: 300px;
+margin-bottom: 1em;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+align-items: center;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+font-weight: bolder;
+}
+
+nav {
+    background-color: aliceblue;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav li {
+    padding-left: 4em;
+    padding-right: 4em;
+
+}
+
+nav li a:hover {
+    color: yellow;
+}
+
+h1 {
+    color: wheat;
+}
+
+button {
+    background-color: rgb(17, 209, 84);
+    color: white;
+    font-weight: bold;
+    padding: 1em;
+}
+button a:hover {
+    color: black;
+}
+
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: beige;
+}
+
